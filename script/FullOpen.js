@@ -22,4 +22,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // Адаптируем интерфейс под новый размер
         console.log('Viewport changed:', window.Telegram.WebApp.viewport);
     });
+
+    // Функция для отключения вертикальных свайпов
+    function disableVerticalSwipes() {
+        window.Telegram.WebApp.setSwipeHandling({
+            vertical: false
+        });
+    }
+
+    // Отключаем вертикальные свайпы
+    disableVerticalSwipes();
 });
