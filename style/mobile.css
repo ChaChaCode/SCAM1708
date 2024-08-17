@@ -1,0 +1,247 @@
+/* Запрещаем выделение текста на всей странице */
+body {
+  overflow: hidden; /* Отключаем прокрутку */
+  margin: 0; /* Убираем отступы по умолчанию */
+}
+
+html {
+  overflow: hidden; /* Отключаем прокрутку */
+  height: 100%; /* Устанавливаем высоту в 100% для предотвращения прокрутки */
+}
+
+.energy-info {
+  margin-top: 0px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-mediumseagreen-300);
+  font-family: var(--font-retrofont);
+  transform-origin: top center;
+}
+
+@media screen and (max-width: 450px) {
+  .flexColumn {
+    margin-top: -20px;
+    transform: scale(0.95);
+    transform-origin: top center;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .flexColumn {
+    margin-top: -22px;
+    transform: scale(0.94);
+    transform-origin: top center;
+  }
+  .heroImage {
+    position: absolute;
+    top: 10px;
+    z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .flexColumn {
+    margin-top: -20px;
+    transform: scale(0.94);
+    transform-origin: top center;
+  }
+  .heroImage {
+    position: absolute;
+    top: 10px;
+    z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .flexColumn {
+    margin-top: -36px;
+    transform: scale(0.90);
+    transform-origin: top center;
+  }
+  .heroImage {
+    position: absolute;
+    top: -20px;
+    z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .flexColumn {
+    margin-top: -36px;
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+  .heroImage {
+    position: absolute;
+    top: -40px;
+    z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flexColumn {
+    margin-top: -50px;
+    transform: scale(0.82);
+    transform-origin: top center;
+  }
+  .heroTitle {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .flexColumn {
+    margin-top: -36px;
+    transform: scale(0.78);
+    transform-origin: top center;
+  }
+}
+
+.untitled-page.heroSection {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(-0.32deg, #1c1d26, #282d3f);
+  z-index: -1; /* Убедитесь, что фон ниже кнопок */
+  overflow: hidden;
+}
+
+.untitled-page .flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.flexColumn {
+  position: absolute;
+  margin-top: -25px;
+  z-index: 1; /* Убедитесь, что контент находится выше фона */
+}
+
+.untitled-page .heroTitle {
+  text-decoration: none;
+  position: relative;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  width: 130px;
+  color: #21d689;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  --shadow-start: rgba(35, 212, 139, 0.8);
+  --shadow-end: rgba(0, 128, 0, 0.8);
+  animation: textShadowAnimation 3s infinite;
+  z-index: 2; /* Убедитесь, что заголовок находится выше фона */
+}
+
+@keyframes textShadowAnimation {
+  0%, 100% {
+    text-shadow: 0 0 12.27px var(--shadow-start);
+  }
+  50% {
+    text-shadow: 0 0 12.27px var(--shadow-end);
+  }
+}
+
+.untitled-page .heroSubtitleBox_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 450px;
+  height: 98px;
+  z-index: 2; /* Убедитесь, что подписи находятся выше фона */
+}
+
+.untitled-page .heroSubtitleBox {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.untitled-page .heroSubtitleBox_span0 {
+  font-size: 20px;
+  color: white;
+  z-index: 2; /* Убедитесь, что текст находится выше фона */
+}
+
+.heroSubtitleBox_span0 {
+  position: relative;
+  top: 20px;
+}
+
+.untitled-page .heroSubtitleBox_span1 {
+  font-size: 20px;
+  color: #21d689;
+  z-index: 2; /* Убедитесь, что текст находится выше фона */
+}
+
+.heroTitle {
+  font-size: 35px;
+}
+
+.untitled-page .heroImage {
+  margin: 27.5px auto 155px;
+  width: 364px;
+  max-width: 85%;
+  z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+}
+
+.heroImage {
+  justify-content: center;
+  position: relative;
+  padding-top: 20px;
+  z-index: 0; /* Убедитесь, что изображение находится ниже кнопок */
+}
+
+/* Добавление CSS для ссылки на Telegram */
+.telegram-link {
+  text-align: center;
+  margin-top: -140px;
+  font-size: 18px;
+  z-index: 1000; /* Убедитесь, что кнопки находятся выше всего остального */
+  position: relative; /* Обеспечивает правильную работу z-index */
+}
+
+.telegram-link a {
+  color: #21d689;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.telegram-link a:hover {
+  color: #1bbf66;
+}
+
+.button-container {
+  padding-top: 200px;
+  position: relative; /* Обеспечивает правильную работу z-index */
+  z-index: 1000; /* Устанавливает кнопки выше других элементов */
+}
+
+.button {
+  width: 145px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #1d1f2d; /* Цвет кнопок */
+  z-index: 1000; /* Устанавливает кнопки выше других элементов */
+}

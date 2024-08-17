@@ -1,0 +1,443 @@
+
+.backinformation-icon {
+  height: 570px;
+  width: 410px;
+  position: relative;
+  border-radius: var(--br-base);
+  display: none;
+  max-width: 100%;
+}
+.code-for {
+  color: var(--color-white);
+}
+.scum6 {
+  color: var(--color-mediumseagreen-200);
+}
+.and-earn {
+  color: var(--color-white);
+}
+.money {
+  color: var(--color-yellow-100);
+}
+.code-for-scum-and-earn-money {
+  margin: 0;
+}
+.bonuses {
+  color: var(--color-yellow-100);
+}
+.blank-line,
+.each-line-of-code-brings-you-b {
+  margin: 0;
+}
+.the-best {
+  color: var(--color-yellow-100);
+}
+.span {
+  color: var(--color-white);
+}
+.upgrade-increase-efficiency-a {
+  margin: 0;
+}
+.information {
+  height: 350px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-container,
+.informationblock {
+  width: 410px; 
+  align-self: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.informationblock {
+  width: 410px;
+  box-shadow: 0 0 12.27px rgba(21, 226, 140, 0.3);
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  flex-direction: row;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 570px;
+}
+.frame-container {
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-retrofont);
+  z-index: 1;
+}
+
+
+
+
+
+
+.backmainbatton-container{
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+}
+.backmainbatton{
+  -webkit-tap-highlight-color: transparent;   -webkit-focus-ring-color: transparent;
+  width: 410px;
+  display: flex;
+}
+.BackMainBatton-icon{
+  width: 410px;
+  height: 80px;
+}
+.backmonitor-icon {
+  height: 80px;
+  width: 82px;
+  position: relative;
+  border-radius: 16.36px;
+  display: none
+}
+
+.monitor-icon {
+  padding-top: 10px;
+  padding-left: 14px;
+  height: 45px;
+  width: 54px;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+
+.monitorbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  cursor: pointer;
+}
+.backruka-icon {
+  height: 80px;
+  width: 54px;
+  border-radius: var(--br-base);
+  display: none;
+}
+.ruka-icon {
+  padding-top: 5px;
+  padding-left: 11px;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+.rukabatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backface-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.face-icon {
+  padding-top: 10px;
+  padding-left: 16px;
+  height: 51px;
+  width: 46px;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+.TopStarsbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backTopStars-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.TopStars-icon{
+  padding-top: 8px;
+  padding-left: 18px;
+  height: 44px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+.Taskimgbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backTaskimg-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.Taskimg-icon{
+  padding-top: 14px;
+  padding-left: 28px;
+  height: 37px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+
+}
+.mainbattons,
+.main {
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  background-color: var(--color-gray-300);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-text1 {
+  font-size: 12px;
+  margin-top: 1px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+  position: relative;
+  top: -10px; /* Поднимает текст на 10 пикселей вверх */
+  font-family: var(--font-retrofont);
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для вертикального центрирования */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text3 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+  position: relative;
+  top: -5px; /* Поднимает текст на 10 пикселей вверх */
+  font-family: var(--font-retrofont);
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для вертикального центрирования */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text4 {
+  position: relative;
+  top: 4px; /* Поднимает текст на 10 пикселей вверх */
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+.button-text5 {
+  position: relative;
+  top: 5px; /* Поднимает текст на 10 пикселей вверх */
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+
+
+
+
+
+
+
+
+.mainbattons,
+.info {
+  gap: var(--gap-xl);
+  position: fixed;
+  bottom: 0; /* Фиксация к нижнему краю экрана */
+}
+.mainbattons {
+  position: fixed;
+  bottom: 30px; /* Фиксация к нижнему краю экрана */
+  z-index: 1;
+}
+.info {
+  align-items: center; /* Добавлено, чтобы центрировать элементы по горизонтали */
+  width: 100%;
+  min-height: 100vh; /* Высота 100% от высоты экрана */
+  position: relative;
+  background: linear-gradient(-0.32deg, #1c1d26, #282d3f);
+  background-size: cover; /* Фон покрывает всю область элемента */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 450px) {
+  .frame-container {
+
+    margin-top: -20px;
+
+    transform: scale(0.95); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -5px;
+
+    transform: scale(0.95); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .frame-container {
+    margin-top: -22px;
+
+    transform: scale(0.94); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -10px;
+
+    transform: scale(0.94); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+@media screen and (max-width: 414px) {
+  .frame-parent {
+    margin-top: -22px;
+    transform: scale(0.94);
+  }
+  .main-buttons {
+    margin: -10px 0;
+    font-size: 12px;
+    transform: scale(0.94);
+  }
+}
+@media screen and (max-width: 412px) {
+  .frame-container {
+    margin-top: -36px;
+
+    transform: scale(0.90); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -15px;
+
+    transform: scale(0.90); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .frame-container {
+    margin-top: -48px;
+
+    transform: scale(0.85); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -15px;
+
+    transform: scale(0.85); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .frame-container {
+    margin-top: -57px;
+
+    transform: scale(0.82); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons{
+    margin: -15px;
+
+    transform: scale(0.82); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+@media screen and (max-width: 360px) {
+  .frame-container {
+    margin-top: -75px;
+
+    transform: scale(0.78); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -20px;
+
+    transform: scale(0.78); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+
+.blurry-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Чтобы точки не мешали кликам */
+  overflow: hidden;
+  display: none; /* По умолчанию скрыто */
+  z-index: 4999; /* Установите z-index ниже, чем у точек */
+}
+
+.blur {
+  filter: blur(4px); /* Эффект размытия */
+  transition: filter 0.3s ease; /* Плавное снятие размытия */
+}

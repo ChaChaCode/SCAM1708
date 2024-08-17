@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+  <link rel="stylesheet" href="./style/global.css" />
+  <link rel="stylesheet" href="./style/index.css" />
+  <link rel="stylesheet" href="./style/shapka.css" />
+  <link rel="stylesheet" href="./style/svetlechki.css" />
+</head>
+<body>
+    <div class="main">
+        <section class="energy-info">
+            <div id="rankUpNotification" class="notification hidden">
+                <p class="notification-text">New Rank <span class="rankName" id="rankName"></span> + <span class="rankReward" id="rankReward"></span> SCAM$</p>
+            </div>
+            <header class="user-info blur">
+                <div class="user-profile">
+                    <div class="grouplogouser1">
+                        <div class="backlogouser1"></div>
+                        <img
+                            class="logouser-icon1"
+                            loading="lazy"
+                            alt=""
+                            src="./public/logouser.png"
+                            />
+                    </div>
+                </div>
+                <div class="user-points">
+                    <a class="scum3" id="glitchText">SCAM$</a>
+                </div>
+                <div class="user-description">
+                    <div class="groupinfotext1" id="groupInfoTextContainer">
+                        <div class="backinfotext1"></div>
+                        <div class="e-n">FAQ</div>
+                    </div>
+                </div>
+                <div class="grouplanguage1">
+                    <div class="backlanguage1"></div>
+                    <a class="language1">EN</a>
+                </div>
+            </header>
+
+            <div class="groupcodepercent blur" id="levelbuttonContainer">
+                <img
+                    class="backcodepercent-icon"
+                    alt=""
+                    src="./public/backcodepercent.svg"
+                />
+                <div class="mylevel" id="currentRank">Beginner</div>
+                <div class="ConUpRankLevel">
+                    <div class="nextTextRank" id="doSledRank">NEXT:</div>
+                    <div class="nextlevel" id="nextRank">Coder</div>
+                </div>
+            </div>
+            <div class="groupline-wrapper">
+                <div class="groupline">
+                    <div class="yourlevelline blur"></div>
+                </div>
+                <span class="percentage-text"></span>
+            </div>
+            <div class="grouptaptext blur" id="tapText">Tap on the screen to start writing code</div>
+            <div class="energy-components blur">
+                <div class="groupenergytext">
+                    <img
+                        class="backenergytext-icon"
+                        alt=""
+                        src="./public/backenergytext.svg"
+                    />
+                    <div class="energytext" id="energyText">500/500</div>
+                </div>
+                <div class="battonBoost" id="boostingButton">
+                    <img class="backBoost-icon" alt="" src="./public/backlevelmap.svg" />
+                    <div class="Boost">BOOST</div>
+                </div>
+            </div>
+            <div class="groupmycoin blur">
+                <div class="kartacher">
+                    <img
+                            class="backkartacher-icon"
+                            alt=""
+                            src="./public/backkartacher.svg"
+                        />
+                    <div class="groupkartscum">
+                        <img
+                            class="backmycoin-icon1"
+                            alt=""
+                            src="./public/backmycoin1.svg"
+                        />
+                        <div class="scum4">SCAM$</div>
+                    </div>
+                    <img
+                        class="cherep-icon"
+                        loading="lazy"
+                        alt=""
+                        src="./public/cherep@2x.png"
+                    />
+                </div>
+                <div class="mycoin">0.000000</div>
+            </div>
+        </section>
+        <section class="mainbattons">
+            <div class="backmainbatton-container">
+                <img class="BackMainBatton-icon" alt="" src="./public/BackMainBatton.svg" />
+                <div class="backmainbatton">
+                    <div class="monitorbatton" id="monitorBattonContainer">
+                        <img class="monitor-icon" loading="lazy" alt="" src="./public/monitor@2x.png" />
+                        <span class="button-text1">UPGRADE</span>
+                    </div>
+                    <div class="rukabatton" id="faceBattonContainer">
+                        <img class="ruka-icon" loading="lazy" alt="" src="./public/face@2x.png" />
+                        <span class="button-text2">INVITE</span>
+                    </div>
+                    <div class="facebatton" id="rukaBattonContainer">
+                        <img class="face-icon" alt="" src="./public/ruka@2x.png" />
+                        <span class="button-text3">TAP</span>
+                    </div>
+                    <div class="TopStarsbatton" id="TopStarsBattonContainer">
+                        <img class="TopStars-icon" loading="lazy" alt="" src="./public/TopStars.png" />
+                        <span class="button-text4">TOP</span>
+                    </div>
+                    <div class="Taskimgbatton" id="TaskBattonContainer">
+                        <img class="Taskimg-icon" loading="lazy" alt="" src="./public/Taskimg.png" />
+                        <span class="button-text5">TASKS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close"></span>
+                <!-- Предзагрузка iframe -->
+                <iframe id="mapTopIframe" src="map-top.html" width="100%" height="100%" frameborder="0" style="display: none;"></iframe>
+            </div>
+        </div>
+
+        <div id="boosting" class="modal">
+            <div class="modal-content boosting-content">
+                <span class="close"></span>
+                <!-- Предзагрузка iframe -->
+                <iframe id="boostIframe" src="boost.html" width="100%" height="100%" frameborder="0" style="display: none;"></iframe>
+            </div>
+        </div>
+
+        <div class="blurry-container" id="blurryContainer">
+            <div class="dots" id="dotsContainer"></div>
+        </div>
+    </div>
+    <div class="svetlechki">
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+        <div class="firefly"></div>
+    </div>
+    <script src="./script/index.js"></script>
+    <script src="./script/telegram-web-app.js"></script>
+    <script src="./script/FullOpen.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="./script/language.js"></script>
+</body>
+</html>

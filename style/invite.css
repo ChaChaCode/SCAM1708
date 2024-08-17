@@ -1,0 +1,830 @@
+.BonusInvitePro,
+.BonusInvite{
+  color: #20d589;
+}
+
+.backgraundinvitetext-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.send-your-friends {
+  color: #20d589;
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.friends-header,
+.you-and-your {
+  align-self: stretch;
+  display: flex;
+}
+.you-and-your {
+  height: 30px;
+  position: relative;
+  font-size: var(--font-size-base);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.friends-header {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3px;
+  font-size: 26px;
+}
+.backinvite-icon {
+  height: 60px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-base);
+  display: none;
+  max-width: 100%;
+}
+.logoinvite-icon {
+  height: 40px;
+  width: 30px;
+  position: relative;
+  object-fit: contain;
+  min-height: 40px;
+  z-index: 1;
+}
+.invite-a-friend {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.for-you-and {
+  color: var(--color-white);
+}
+.for-you-and-container {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+  color: var(--color-mediumseagreen-200);
+}
+.fulllogotextbackinvitefriends,
+.invite-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.invite-details {
+  flex: 1;
+  flex-direction: column;
+  min-width: 214px;
+}
+.fulllogotextbackinvitefriends {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.backinviteprem-icon {
+  height: 60px;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-base);
+  display: none;
+  max-width: 100%;
+}
+.logoinviteprem-icon {
+  height: 40px;
+  width: 30px;
+  position: relative;
+  object-fit: contain;
+  min-height: 40px;
+  z-index: 1;
+}
+.premium {
+  color: var(--color-yellow-200);
+}
+.invite-a-friend-container {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.for-you-and1 {
+  color: var(--color-white);
+}
+.for-you-and-container1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+  color: var(--color-mediumseagreen-200);
+}
+.invite-a-friend-with-telegram-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 214px;
+  max-width: 100%;
+}
+.invitepremfriend {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.invite-options,
+.invite-type,
+.invitepremfriend {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.invite-type {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.invite-options {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  text-align: left;
+}
+.backcopylink-icon {
+  align-self: stretch;
+  width: 390px;
+  position: relative;
+  border-radius: 16.36px;
+  max-height: 100%;
+  display: none;
+  min-height: 40px;
+  max-width: 100%;
+}
+.linktext {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  z-index: 1;
+}
+.backcopy-icon {
+  align-self: stretch;
+  width: 110px;
+  position: relative;
+  border-radius: 16.36px;
+  max-height: 100%;
+  min-height: 40px;
+}
+.copy {
+  margin-left: -5px;
+  right: 72px;
+  height: 40px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.buttoncopylinkinvite,
+.textandbackgraundcopylink {
+  border-radius: 16.36px;
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttoncopylinkinvite {
+  width: 110px;
+  border: 0 solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+  z-index: 3;
+  color: var(--color-white);
+}
+.textandbackgraundcopylink {
+  flex: 1;
+  flex-wrap: wrap;
+  max-width: 100%;
+  row-gap: 20px;
+  z-index: 2;
+}
+.fullblocksendfriends,
+.textandbackgraundcopylink-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.textandbackgraundcopylink-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  color: rgba(255, 255, 255, 0.16);
+}
+.fullblocksendfriends {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  flex-direction: column;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+}
+.backgraundinvitedusers,
+.backtextinvitedfriends {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-base);
+  display: none;
+}
+.backgraundinvitedusers {
+  height: 275px;
+  background-color: var(--color-gray-100);
+}
+.backtextinvitedfriends {
+  width: 410px;
+  background-color: var(--color-gray-300);
+  max-width: 100%;
+}
+.invited-friends {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.shapkainvitefrends {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.backlogoinvite,
+.friendsnopremback-icon {
+  border-radius: var(--br-base);
+  display: none;
+}
+.friendsnopremback-icon {
+  max-width: 36px;
+  max-height: 36px;
+  align-self: stretch;
+  width: 390px;
+  position: relative;
+}
+.backlogoinvite {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.logoinvite-icon1 {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 1;
+  border-radius: 15px;
+  justify-content: center;
+  justify-items: center;
+} 
+.logouserinvite,
+.testuser {
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+.logouserinvite {
+  width: 40px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  border: 1px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+}
+.testuser {
+  top: 10px;
+  font-weight: 600;
+  display: inline-block; /* Используем inline-block для контроля размера */
+  align-items: center;
+  font-size: 16px;
+  max-width: 150px; /* Ограничение ширины */
+  overflow: hidden; /* Скрытие текста за пределами */
+  text-overflow: ellipsis; /* Добавление троеточия */
+  white-space: nowrap; /* Запрет на перенос текста */
+  box-sizing: border-box; /* Учитываем padding и border в расчёте ширины */
+  padding-right: 10px; /* Дополнительный отступ справа */
+}
+.friend-info {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 136px;
+}
+.scum8 {
+  color: var(--color-mediumseagreen-200);
+}
+.prizfriend-txt {
+  width: 100%;
+}
+.prizfriend {
+  height: 40px;
+  width: 180px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.friendsnoprem{
+  align-self: stretch;
+  border-radius: var(--br-base);
+  max-width: 100%;
+}
+.friendsnoprem {
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+
+.myfriends,
+.myfriends-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.myfriends,
+.myfriends-wrapper {
+  box-sizing: border-box;
+}
+.myfriends {
+  height: 200px;
+  flex: 1;
+  border-radius: var(--br-base);
+  overflow-y: auto;
+  flex-direction: column;
+  padding: 0 0 70px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+/* Скрытие скроллбара на ПК */
+@media (min-width: 768px) {
+  .myfriends::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Для других браузеров */
+  .myfriends {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+.myfriends-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  text-align: left;
+}
+.inviteusersfull {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-100);
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.content-body,
+.frame-section,
+.inviteusersfull {
+  width: 410px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-section {
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-retrofont);
+  z-index: 1;
+}
+
+
+
+
+
+
+.backmainbatton-container{
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+}
+.backmainbatton{
+  -webkit-tap-highlight-color: transparent;   -webkit-focus-ring-color: transparent;
+  width: 410px;
+  display: flex;
+}
+.BackMainBatton-icon{
+  width: 410px;
+  height: 80px;
+}
+.backmonitor-icon {
+  height: 80px;
+  width: 82px;
+  position: relative;
+  border-radius: 16.36px;
+  display: none
+}
+
+.monitor-icon {
+  padding-top: 10px;
+  padding-left: 14px;
+  height: 45px;
+  width: 54px;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+
+.monitorbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  cursor: pointer;
+}
+.backruka-icon {
+  height: 80px;
+  width: 54px;
+  border-radius: var(--br-base);
+  display: none;
+}
+.ruka-icon {
+  padding-top: 5px;
+  padding-left: 11px;
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.rukabatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box; /* Обводка внутри элемента */
+  background-color: var(--color-gray-100);
+  position: relative;
+}
+.rukabatton::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 16.36px; /* Соответствует радиусу границы элемента */
+  border: 1px solid #20d589; /* Обводка внутри элемента */
+  pointer-events: none; /* Чтобы обводка не мешала взаимодействию с элементом */
+  box-sizing: border-box;
+  z-index: 1; /* Помещаем обводку под внутренние элементы */
+}
+.backface-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.face-icon {
+  padding-top: 10px;
+  padding-left: 16px;
+  height: 51px;
+  width: 46px;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+.TopStarsbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backTopStars-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.TopStars-icon{
+  padding-top: 8px;
+  padding-left: 18px;
+  height: 44px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+}
+.Taskimgbatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backTaskimg-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: 16.36px;
+  display: none;
+}
+.Taskimg-icon{
+  padding-top: 14px;
+  padding-left: 28px;
+  height: 37px;
+  width: 25px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+  filter: invert(50%) brightness(170%); /* Инвертирование цветов и увеличение яркости */
+
+}
+.mainbattons,
+.main {
+  width: 410px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebatton {
+  margin-top: -80px;
+  height: 80px;
+  width: 82px;
+  border-radius: 16.36px;
+  background-color: var(--color-gray-300);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.button-text1 {
+  font-size: 12px;
+  margin-top: 1px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-mediumseagreen-300);
+  position: relative;
+  top: -10px; /* Поднимает текст на 10 пикселей вверх */
+  font-family: var(--font-retrofont);
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для вертикального центрирования */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text3 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+  position: relative;
+  top: -5px; /* Поднимает текст на 10 пикселей вверх */
+  font-family: var(--font-retrofont);
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для вертикального центрирования */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+.button-text4 {
+  position: relative;
+  top: 4px; /* Поднимает текст на 10 пикселей вверх */
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+.button-text5 {
+  position: relative;
+  top: 5px; /* Поднимает текст на 10 пикселей вверх */
+  font-size: 12px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(219, 219, 219);
+ font-family: var(--font-retrofont);
+ text-align: center; /* Горизонтальное центрирование текста */
+ display: flex; /* Использование flexbox для вертикального центрирования */
+ justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+ align-items: center; /* Вертикальное центрирование flex-контейнера */
+}
+
+
+.mainbattons,
+.invite {
+  gap: var(--gap-xl);
+  position: fixed;
+  bottom: 0; /* Фиксация к нижнему краю экрана */
+}
+.mainbattons {
+  position: fixed;
+  bottom: 30px; /* Фиксация к нижнему краю экрана */
+  z-index: 1;
+}
+.invite {
+  align-items: center; /* Добавлено, чтобы центрировать элементы по горизонтали */
+  width: 100%;
+  min-height: 100vh; /* Высота 100% от высоты экрана */
+  position: relative;
+  background: linear-gradient(-0.32deg, #1c1d26, #282d3f);
+  background-size: cover; /* Фон покрывает всю область элемента */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 450px) {
+  .frame-section {
+
+    margin-top: -22px;
+
+    transform: scale(0.95); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -5px;
+
+    transform: scale(0.95); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .frame-section {
+    margin-top: -24px;
+
+    transform: scale(0.94); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -10px;
+
+    transform: scale(0.94); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+@media screen and (max-width: 414px) {
+  .frame-section {
+    margin-top: -24px;
+    transform: scale(0.94);
+  }
+  .main-buttons {
+    margin: -10px 0;
+    font-size: 12px;
+    transform: scale(0.94);
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .frame-section {
+    margin-top: -39px;
+
+    transform: scale(0.90); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -15px;
+
+    transform: scale(0.90); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .frame-section {
+    margin-top: -52px;
+
+    transform: scale(0.85); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons
+  {
+    margin: -15px;
+
+    transform: scale(0.85); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .frame-section {
+    margin-top: -62px;
+
+    transform: scale(0.82); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons{
+    margin: -15px;
+
+    transform: scale(0.82); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+@media screen and (max-width: 360px) {
+  .frame-section {
+    margin-top: -82px;
+
+    transform: scale(0.78); /* Уменьшение масштаба для маленьких экранов */
+  }
+  .mainbattons{
+    margin: -20px;
+    transform: scale(0.78); /* Уменьшение масштаба для маленьких экранов */
+  }
+}
+
+
+.blurry-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Чтобы точки не мешали кликам */
+  overflow: hidden;
+  display: none; /* По умолчанию скрыто */
+  z-index: 4999; /* Установите z-index ниже, чем у точек */
+}
+
+.blur {
+  filter: blur(4px); /* Эффект размытия */
+  transition: filter 0.3s ease; /* Плавное снятие размытия */
+}

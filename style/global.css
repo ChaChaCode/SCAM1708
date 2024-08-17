@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+/* Обёртка для всплывающего окна */
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+/* Определение шрифта */
+@font-face {
+  font-family: 'retrofont';
+  src: url('../front/Retro\ Gaming.ttf');
+  font-weight: 200; /* Легкий вес шрифта */
+  font-style: normal;
+}
+
+/* Глобальные переменные */
+:root {
+  /* Шрифты */
+  --font-retrofont: 'retrofont';
+
+  /* Размеры шрифтов */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-xl: 20px;
+
+  /* Цвета */
+  --color-gray-100: #1d1f2d;
+  --color-gray-200: #181b27;
+  --color-gray-300: #191a27;
+  --color-mediumseagreen-100: #41d691;
+  --color-mediumseagreen-200: #21d589;
+  --color-mediumseagreen-300: #20c481;
+  --color-white: #fff;
+  --color-yellow-100: #fff731;
+  --color-yellow-200: #dfe237;
+  --color-gold: #ffd700;
+  --color-black: #000;
+
+  /* Отступы */
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-7xs: 6px;
+  --gap-8xs: 5px;
+
+  /* Внутренние отступы */
+  --padding-xl: 20px;
+  --padding-11xl: 30px;
+  --padding-6xs: 7px;
+  --padding-16xl: 35px;
+  --padding-smi: 13px;
+  --padding-8xl: 27px;
+  --padding-3xs: 10px;
+  --padding-8xs: 5px;
+  --padding-2xl: 21px;
+  --padding-sm: 14px;
+  --padding-3xl: 22px;
+  --padding-161xl: 180px;
+  --padding-4xl: 23px;
+  --padding-4xs-6: 8.6px;
+  --padding-mini-1: 14.1px;
+  --padding-lg: 18px;
+  --padding-11xs: 2px;
+  --padding-21xl: 41px;
+  --padding-31xl: 50px;
+
+  /* Радиусы бордеров */
+  --br-base-4: 16.4px;
+  --br-base: 16px;
+  --br-21xl-9: 40.9px;
+  --br-2xs: 11px;
+  --br-81xl: 100px;
+
+  /* Межбуквенное расстояние */
+  --letter-spacing: -1px; /* -5% межбуквенное расстояние */
+}
+
+/* Применение стилей для всех элементов */
+* {
+  font-family: var(--font-retrofont);
+  font-size: var(--font-size-base);
+  font-weight: 200 !important; /* Установите легкий вес шрифта */
+  letter-spacing: var(--letter-spacing);
+}

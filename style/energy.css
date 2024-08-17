@@ -1,0 +1,185 @@
+.backenergytap-icon {
+  height: 210px;
+  width: 150px;
+  position: relative;
+  border-radius: var(--br-base);
+  display: none;
+}
+
+.energy-1-icon {
+  top: 20px;
+  height: 136px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.energytapimage {
+  width: 150px;
+  height: 210px;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+
+.backenergytapinfo-icon {
+  height: 0px;
+}
+
+.energytapinfo {
+  height: 140px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+
+.backandtextenergytapinfo,
+.ramkatexta-icon {
+  align-self: stretch;
+  border-radius: var(--br-base);
+}
+
+.backandtextenergytapinfo {
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px var(--padding-3xs) var(--padding-3xs);
+  position: relative;
+  z-index: 1;
+}
+
+.ramkatexta-icon {
+  width: 240px;
+  max-height: 100%;
+  display: block;
+  min-height: 47px;
+  position: absolute; /* Используем absolute для наложения */
+  top: 0; /* Располагаем в верхней части родительского элемента */
+  left: 0;
+  z-index: 2; /* Высокий z-index чтобы изображение было выше других элементов */
+}
+
+.span2 {
+  color: var(--color-mediumseagreen-200);
+}
+
+.lvl-container1 {
+  height: 47px;
+  flex: 1;
+  position: relative;
+  z-index: 3; /* Устанавливаем z-index выше чем у ramkatexta-icon */
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для центрирования содержимого */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+  max-width: 100%; /* Ограничение максимальной ширины контейнера */
+}
+
+.energy-text {
+  position: absolute; /* Используем absolute для наложения */
+  top: 15px; /* Смещаем текст на необходимую высоту */
+  left: 50px; /* Смещаем текст на необходимую ширину */
+  z-index: 4; /* Устанавливаем z-index выше чем у ramkatexta-icon */
+  text-align: center; /* Горизонтальное центрирование текста */
+  display: flex; /* Использование flexbox для вертикального центрирования */
+  justify-content: center; /* Горизонтальное центрирование flex-контейнера */
+  align-items: center; /* Вертикальное центрирование flex-контейнера */
+  display: inline;
+}
+
+.energytaplevernuberfull {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  border: 0 solid var(--color-mediumseagreen-200);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 2;
+  margin-top: -210px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  position: relative;
+}
+
+.lever-info,
+.energytapimage-parent,
+.energytaplevernuberfull {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.lever-info {
+  flex: 1;
+  flex-direction: column;
+  min-width: 156px;
+  min-height: 210px;
+}
+
+.energytapimage-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+
+
+.scum12 {
+  color: var(--color-mediumseagreen-200);
+}
+
+.buyenergytap {
+  height: 60px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрирует элемент по горизонтали */
+  max-width: 100%;
+  z-index: 1
+}
+
+.multi-bay-batton1,
+.energy {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.multi-bay-batton1 {
+  align-self: stretch;
+  box-shadow: 0 0 12.27px rgba(21, 226, 140, 0.3);
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  flex-direction: row;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.energy {
+  width: 450px;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-gray-100);
+  border-top: 1px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-21xl);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

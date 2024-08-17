@@ -1,0 +1,180 @@
+.backlogouser1 {
+    position: absolute;
+    top: 0;
+  }
+  .logouser-icon1{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 100%;
+  }
+  .grouplogouser1 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    border-radius: 40.91px;
+    background-color: var(--color-gray-100);
+  }
+  .username1 {
+    text-decoration: none;
+    align-self: stretch;
+    height: 11.5px;
+    position: relative;
+    line-height: 15px;
+    font-weight: 600;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .display-name,
+  .user-profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .display-name {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-mini-1) 0 0;
+  }
+  .user-profile {
+    width: 60px;
+    flex-direction: row;
+    gap: var(--gap-7xs);
+    text-align: left;
+  }
+  .scum3 {
+    text-decoration: none;
+    width: 130px;
+    position: relative;
+    font-weight: 700;
+    color: rgb(32,196,129);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+  
+  @keyframes textShadowAnimation {
+    0%, 100% {
+      text-shadow: 0 0 10px rgb(32,196,129), 0 0 20px rgb(32,196,129), 0 0 30px rgb(32,196,129), 0 0 40px rgb(32,196,129);
+    }
+    50% {
+      text-shadow: 0 0 5px rgb(32,196,129), 0 0 10px rgb(32,196,129), 0 0 15px rgb(32,196,129), 0 0 20px rgb(32,196,129);
+    }
+  }
+  
+  @keyframes textShadowAnimation {
+    0% {
+      text-shadow: 0 0 12.27px var(--shadow-start);
+    }
+    50% {
+      text-shadow: 0 0 12.27px var(--shadow-end);
+    }
+    100% {
+      text-shadow: 0 0 12.27px var(--shadow-start);
+    }
+  }
+  .user-points {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-4xs-6) 0 0;
+    margin-left: -3px;
+    font-size: var(--font-size-xl);
+    color: var(--color-mediumseagreen-200);
+  }
+  .backinfotext1,
+  .e-n {
+    height: 40px;
+    position: relative;
+  }
+  .backinfotext1 {
+    width: 40px;
+    border-radius: 40.91px;
+    background-color: var(--color-gray-100);
+    display: none;
+  }
+  .e-n {
+    font-size: 16px;
+    flex: 1;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .groupinfotext1,
+  .user-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    -webkit-tap-highlight-color: transparent; /* Убирает выделение при нажатии на мобильных устройствах */
+  }
+  .groupinfotext1 {
+    align-self: stretch;
+    border-radius: 40.91px;
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    cursor: pointer;
+  }
+  .user-description {
+    width: 90px;
+    flex-direction: column;
+    margin-right: -10px;
+    padding: 0 var(--padding-4xl) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
+  }
+  .backlanguage1,
+  .language1 {
+    height: 40px;
+    position: relative;
+  }
+  .backlanguage1 {
+    width: 40px;
+    border-radius: 40.91px;
+    background-color: var(--color-gray-100);
+    display: none;
+  }
+  .language1 {
+    cursor: pointer;
+    text-decoration: none;
+    flex: 1;
+    font-weight: 600;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .grouplanguage1,
+  .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .grouplanguage1 {
+    width: 40px;
+    border-radius: 40.91px;
+    background-color: var(--color-gray-100);
+    margin-left: -3px;
+    font-size: var(--font-size-base);
+  }
+  
+  .user-info {
+    width: 410px;
+    align-self: stretch;
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    font-family: var(--font-retrofont);
+  }
